@@ -30,7 +30,7 @@ var http = require("http"),
     fs = require("fs"),
     mime = require("mime")
     port = process.argv[2] || 8000
-    static = path.join(process.cwd(), '../static');
+    static = path.join(process.cwd(), './static');
  
 http.createServer(function(request, response) {
  
